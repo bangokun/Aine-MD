@@ -2,7 +2,6 @@ let fs = require('fs')
 const { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m, { conn }) => {
 let gaboleh = fs.readFileSync('./mp3/kintil.opus')
-conn.sendFile(m.chat, ihhomkasar, '', '', m, true)
 setTimeout(() => {
 conn.sendFile(m.chat, gaboleh, '', '', m, true)
 }, 1000)
