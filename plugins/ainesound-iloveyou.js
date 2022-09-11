@@ -1,11 +1,11 @@
 /*let fs = require('fs')
 const { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m) => {
-let helloaine = fs.readFileSync('./mp3/PTT-20211218-WA0243.opus') 
+let helloaine = fs.readFileSync('./mp3/love.opus') 
 conn.sendFile(m.chat, helloaine, '', '', m, true)
 }
 
-handler.customPrefix = /^(i love you|i ❤️ u)$/i
+handler.customPrefix = /^(i love you|i ❤️ u|)$/i
 handler.command = new RegExp
 
 handler.limit = true
