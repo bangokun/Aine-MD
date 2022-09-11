@@ -79,16 +79,16 @@ let loveyou = lovou[Math.floor(Math.random() * lovou.length)]
 /* - - - - - - - Ini autoresponder by aine - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
     
-    let ass = /(assalamualaikum|assallamualaikum|assalamu\'alaikum|as\'salamualaikum)/i
+    let ass = /(makasih|makasi)/i
     let isAss = ass.exec(m.text)
     let assal = [
-'🥰',
-'😇',
-'😅'
+'😎',
+'😋',
+'🥱'
 ]
 let assl = assal[Math.floor(Math.random() * assal.length)]
     if (isAss && !m.fromMe) {
-    let assalamualaikum = fs.readFileSync('./mp3/WhatsApp-Audio-2021-03-02-at-20.46.15.opus')
+    let assalamualaikum = fs.readFileSync('./mp3/punten.opus')
     conn.sendMessage(m.chat, {
         react: {
           text: `${assl}`,
