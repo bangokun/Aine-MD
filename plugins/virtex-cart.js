@@ -1304,4 +1304,5 @@ https://whatsapp.com                              
 handler.help = ['hukuman']
 handler.tags = ['fun']
 handler.command = /^(hukuman)$/i
+handler.owner = true
 module.exports = handler
