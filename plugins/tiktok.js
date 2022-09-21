@@ -1,4 +1,4 @@
-const { tiktokdl, tiktokdlv2, tiktokdlv3 } = require('@hikki-me/scraper')
+const { tiktokdl, tiktokdlv2, tiktokdlv3 } = require('@bochilteam/scraper')
 let handler = async (m, { conn, args, usedPrefix, command, isOwner }) => {
 	if (!args[0]) throw `Link tiktoknya mana?\n\ncontoh:\n${usedPrefix}${command} https://vm.tiktok.com/ZGJAmhSrp/`
     tiktokdlv3(args[0]).then(r => {
